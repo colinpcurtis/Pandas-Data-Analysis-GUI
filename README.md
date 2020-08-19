@@ -1,4 +1,4 @@
-# Pandas-Data-Analysis-GUI-
+# Pandas-Data-Analysis-GUI
 We export csv files into a pandas dataframe and use pandastable and Tkinter to create a GUI that executes statistical analyses and creates plots using matplotlib.
 
 This is used primarily as a data visualization tool by creating an easy to use table where we can select column names to either create plots or produce descriptive statistics. 
