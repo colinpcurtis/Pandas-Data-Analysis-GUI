@@ -16,8 +16,6 @@ abalone_data.name = "abalone data"
 # if using new data make sure to update column names, indices, and dataframe name
 
 
-# scales the square footage so that it's in the thousands
-
 # print(abalone_data)
 
 
