@@ -35,7 +35,7 @@ def display_histogram(dataframe, col1: str):  # creates a histogram for one colu
     plt.xlabel(col1)  # column we're analyzing forms the x axis
     plt.ylabel("frequency")
     plt.gcf().text(.1, .01, f"mean={round(dataframe[col1].mean(), 3)}, std ={round(dataframe[col1].std(), 2)}")
-    # line 35 shows the mean and standard deviation of the sample.  For large sample sizes this can act as a visual
+    # line 37 shows the mean and standard deviation of the sample.  For large sample sizes this can act as a visual
     # test for whether or not the sample has a Gaussian distribution
     plt.show()
 
